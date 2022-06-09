@@ -11,10 +11,10 @@ int main() {
 			location = i;
 		} //end of if
 	} //end of for
-	//ì¶œë ¥
-	printf("ë°°ì—´ì˜ ìµœì†Œê°’ì€ %dì…ë‹ˆë‹¤.\n", min);
-	//ìœ„ì¹˜
-	printf("ìµœì†Œê°’ì˜ ìœ„ì¹˜ëŠ” %dë²ˆì§¸ì…ë‹ˆë‹¤.\n", location);
+	//Ãâ·Â
+	printf("¹è¿­ÀÇ ÃÖ¼Ò°ªÀº %dÀÔ´Ï´Ù.\n", min);
+	//À§Ä¡
+	printf("ÃÖ¼Ò°ªÀÇ À§Ä¡´Â %d¹øÂ°ÀÔ´Ï´Ù.\n", location);
 
 	return 0;
 }

@@ -6,20 +6,20 @@ int main() {
 	int arr[10] = { 0 };
 	int sum = 0;
 	double avg = 0;
-	//ì €ì¥
+	//ÀúÀå
 	for (int i = 0; i < 10; i++) {
 		arr[i] = rand() % 100+1;
 		printf("%d\t", arr[i]);
 	}
-	//í•©ê³„
+	//ÇÕ°è
 	printf("\n");
 	for (int i = 0; i < 10; i++) {
 		sum += arr[i];
 	}
-	printf("í•©ê³„: %d\n", sum);
-	//í‰ê· 
+	printf("ÇÕ°è: %d\n", sum);
+	//Æò±Õ
 	avg = (double)sum / 10;
-	printf("í‰ê· : %lf\n", avg);
+	printf("Æò±Õ: %lf\n", avg);
 
 	return 0;
 }

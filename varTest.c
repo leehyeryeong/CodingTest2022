@@ -6,14 +6,14 @@ int main()
 	char ch = 'A';
 	int c = a + b;
 	char fruit[6] = "apple";
-	//í™”ë©´ì— ì¶œë ¥
+	//È­¸é¿¡ Ãâ·Â
 	printf("%d\n", a);
 	printf("%lf\n", b);
 	printf("%c\n", ch);
 	printf("%d\n", c);
 
 	int length;
-	length = sizeof(fruit) / sizeof(fruit[0]);	//ë°°ì—´ì˜ ê¸¸ì´ êµ¬í•˜ê¸°
+	length = sizeof(fruit) / sizeof(fruit[0]);	//¹è¿­ÀÇ ±æÀÌ ±¸ÇÏ±â
 
 	for (int i = 0; i < length; i++) {
 		printf("%c", fruit[i]);
