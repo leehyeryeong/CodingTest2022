@@ -2,7 +2,7 @@
 
 int main()
 {
-	//ê¸°ë³¸) ì¶œë ¥í•¨ìˆ˜
+	//±âº») Ãâ·ÂÇÔ¼ö
 	printf("   ");
 	printf("aaaaaaaa\nbbbbbbbb\n");
 	printf("%d\n", 100);

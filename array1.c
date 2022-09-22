@@ -3,9 +3,9 @@
 int main() {
 	int arr[10];
 
-	printf("arr ë°°ì—´ì˜ í¬ê¸°: %d bytes\n", sizeof(arr));				//4*10=40
-	printf("arr ë°°ì—´ ìš”ì†Œì˜ í¬ê¸°: %d bytes\n", sizeof(arr[0]));		//4
-	printf("arr ë°°ì—´ì˜ ê¸¸ì´: %d\n", sizeof(arr) / sizeof(arr[0]));	//10
+	printf("arr ¹è¿­ÀÇ Å©±â: %d bytes\n", sizeof(arr));				//4*10=40
+	printf("arr ¹è¿­ ¿ä¼ÒÀÇ Å©±â: %d bytes\n", sizeof(arr[0]));		//4
+	printf("arr ¹è¿­ÀÇ ±æÀÌ: %d\n", sizeof(arr) / sizeof(arr[0]));	//10
 
 	for (int i = 0; i < 10; i++) {
 		printf("%d\n", arr[i]);

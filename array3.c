@@ -12,12 +12,12 @@ int main() {
 
 	int arr2[3][4] = { 0 };
 
-	printf("arr2ì˜ í¬ê¸°: %d\n", sizeof(arr2));						//48
-	printf("arr2[0]ì˜ í¬ê¸°: %d\n", sizeof(arr2[0]));				//16
-	printf("arr2[1]ì˜ í¬ê¸°: %d\n", sizeof(arr2[1]));				//16
-	printf("arr2[2]ì˜ í¬ê¸°: %d\n", sizeof(arr2[2]));				//16
-	printf("arr2[2][3]ì˜ í¬ê¸°: %d\n", sizeof(arr2[2][3]));			//4
-	printf("arr2ì˜ ê¸¸ì´: %d\n", sizeof(arr) / sizeof(arr[0][0]));	//12	
+	printf("arr2ÀÇ Å©±â: %d\n", sizeof(arr2));						//48
+	printf("arr2[0]ÀÇ Å©±â: %d\n", sizeof(arr2[0]));				//16
+	printf("arr2[1]ÀÇ Å©±â: %d\n", sizeof(arr2[1]));				//16
+	printf("arr2[2]ÀÇ Å©±â: %d\n", sizeof(arr2[2]));				//16
+	printf("arr2[2][3]ÀÇ Å©±â: %d\n", sizeof(arr2[2][3]));			//4
+	printf("arr2ÀÇ ±æÀÌ: %d\n", sizeof(arr) / sizeof(arr[0][0]));	//12	
 
 	return 0;
 }
